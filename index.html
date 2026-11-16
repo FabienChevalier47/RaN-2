@@ -15,10 +15,10 @@
             <a href="#histoire">Histoire</a>
           </li>
           <li>
-            <a href="#technologies">Technologie</a>
+            <a href="#medias">Médias</a>
           </li>
           <li>
-            <a href="#medias">Médias</a>
+            <a href="#technologies">Technologie</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
@@ -28,7 +28,7 @@
     </header>
     <hr />
     <main>
-      <article>
+      <article id="histoire">
         <h2>L'Histoire des missions Apollo</h2>
         <p>
           Lancé par la
@@ -37,17 +37,18 @@
           >
           dans les années 1960, le programme Apollo avait pour objectif
           ambitieux d'envoyer des humains sur la Lune. Ce défi historique a
-          permi à <mark>Neil Armstrong</mark> et Buzz Aldrin de marcher sur le
+          permis à <mark>Neil Armstrong</mark> et Buzz Aldrin de marcher sur le
           sol lunaire.<br />
           Le premier pas sur la lune a eu lieu le
           <time datetime="1969-07-20">20 juillet 1969</time>.
         </p>
         <p>
-          Le code qui a permi l'alunissage était
+          Le code qui a permis l'alunissage était
           <code>for i in range(2): pass</code> .
         </p>
+        <small>Source : Archives gouvernementales</small>
       </article>
-      <section>
+      <section id="medias">
         <h2>Médias et Multimédia</h2>
         <figure>
           <img src="images/astronaute.png" alt="une image d'astronaute" />
@@ -67,7 +68,7 @@
           <source src="discours.ogg" type="audio/ogg" />
         </audio>
       </section>
-      <section>
+      <section id="technologies">
         <h2>Comparaisons de fusées</h2>
         <table>
           <colgroup>
@@ -137,25 +138,28 @@
           <area
             shape="rect"
             coords="230,260,370,350"
-            href="mars.com"
+            href="https://mars.com"
             alt="mars"
           />
           <area
             shape="circle"
             coords="300,150,50"
-            href="terre.com"
+            href="https://terre.com"
             alt="terre"
           />
         </map>
       </section>
     </main>
-    <footer>
+    <footer id="contact">
       <address>
+        Centre Spatial de Kourou<br />
         Route de l'Espace<br />
         97310 Kourou, Guyane française<br />
-        Téléphone: <a></a> Email: <a></a>
+        Téléphone: <a href="tel:+594594335111">594 594 33 51 11</a> <br />
+        Email:<a href="mailto:contact@centrespatial.fr"
+          >contact@centrespatial.fr</a
+        >
       </address>
-      <small>Source : Archives gouvernementales</small>
     </footer>
   </body>
 </html>
