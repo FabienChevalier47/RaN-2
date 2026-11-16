@@ -28,7 +28,6 @@
     </header>
     <hr />
     <main>
-    <section>
       <article>
         <h2>L'Histoire des missions Apollo</h2>
         <p>
@@ -48,67 +47,114 @@
           <code>for i in range(2): pass</code> .
         </p>
       </article>
-    </section>
-    <section>
-      <h2>Médias et Multimédia</h2>
-      <figure>
-        <img src="images/astronaute.png" alt="une image d'astronaute" />
-        <figcaption>Un astronaute dans l'espace</figcaption>
-      </figure>
-      <video src="astronaute2.mp4" width="640" height="360" controls>
-        <track
-          src="sous-titres.vtt"
-          kind="subtitles"
-          srclang="fr"
-          label="Français"
-          default
-        />
-      </video>
-      <audio>
+      <section>
+        <h2>Médias et Multimédia</h2>
+        <figure>
+          <img src="images/astronaute.png" alt="une image d'astronaute" />
+          <figcaption>Un astronaute dans l'espace</figcaption>
+        </figure>
+        <video src="astronaute2.mp4" width="640" height="360" controls>
+          <track
+            src="sous-titres.vtt"
+            kind="subtitles"
+            srclang="fr"
+            label="Français"
+            default
+          /></video
+        ><br />
         <audio controls>
-        <source src="discours.mp3" type="audio/mpeg">
-        <source src="discours.ogg" type="audio/ogg">
-      </audio>
-    </section>
-    <section>
-      <h2>Comparaisons de fusées</h2>
-      <table>
-        <colgroup>
-          <col span="2">
-          <col span="2" class="stats">
-        </colgroup>
-        <thead>
-          <tr>
-            <th>Nom de la fusée</th>
-            <th>Organisation</th>
-            <th>Charge utile</th>
-            <th>Année</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Saturn V</td>
-            <td>NASA</td>
-            <td>140 tonnes</td>
-            <td>1967</td>
-          </tr>
-          <tr>
-            <td>Falcon 9</td>
-            <td>SpaceX</td>
-            <td>23 tonnes</td>
-            <td>2010</td>
-          </tr>
-          <tr>
-            <td>Ariane 5</td>
-            <td>ESA</td>
-            <td>21 tonnes</td>
-            <td>1996</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
+          <source src="discours.mp3" type="audio/mpeg" />
+          <source src="discours.ogg" type="audio/ogg" />
+        </audio>
+      </section>
+      <section>
+        <h2>Comparaisons de fusées</h2>
+        <table>
+          <colgroup>
+            <col span="2" />
+            <col span="2" class="stats" />
+          </colgroup>
+          <thead>
+            <tr>
+              <th>Nom de la fusée</th>
+              <th>Organisation</th>
+              <th>Charge utile</th>
+              <th>Année</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Saturn V</td>
+              <td>NASA</td>
+              <td>140 tonnes</td>
+              <td>1967</td>
+            </tr>
+            <tr>
+              <td>Falcon 9</td>
+              <td>SpaceX</td>
+              <td>23 tonnes</td>
+              <td>2010</td>
+            </tr>
+            <tr>
+              <td>Ariane 5</td>
+              <td>ESA</td>
+              <td>21 tonnes</td>
+              <td>1996</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Foire Aux Questions</h2>
+        <details>
+          <summary>Comment devient-on astronaute ?</summary>
+          <p>En étant très fort.</p>
+        </details>
+        <svg
+          width="200"
+          height="200"
+          viewBox="0 0 200 200"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="100"
+            cy="100"
+            r="80"
+            fill="#95a5a6"
+            stroke="#7f8c8d"
+            stroke-width="4"
+          />
+        </svg>
+        <br />
+        <img
+          src="images/systemesol.png"
+          alt="le système solaire"
+          usemap="#systemesol"
+          width="600"
+          height="360"
+        />
+        <map name="systemesol">
+          <area
+            shape="rect"
+            coords="230,260,370,350"
+            href="mars.com"
+            alt="mars"
+          />
+          <area
+            shape="circle"
+            coords="300,150,50"
+            href="terre.com"
+            alt="terre"
+          />
+        </map>
+      </section>
     </main>
     <footer>
+      <address>
+        Route de l'Espace<br />
+        97310 Kourou, Guyane française<br />
+        Téléphone: <a></a> Email: <a></a>
+      </address>
       <small>Source : Archives gouvernementales</small>
     </footer>
   </body>
